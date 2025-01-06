@@ -22,8 +22,6 @@ void QuickSort(vector<int> &arr, int start, int end)
         {
             j--;
         }
-        int iValue = arr[i];
-        int jValue = arr[j];
         if (i < j)
         {
             swap(arr[i], arr[j]);
